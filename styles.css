@@ -1,8 +1,19 @@
-.footer {
-  height :72px;
-  background: 152937;
-  color: white;
+.body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  flex: 1;
 }
+
+.header {
+  display: flex;
+  background: #1f2937;
+}
+
+.footer {
+    height :72px;
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
